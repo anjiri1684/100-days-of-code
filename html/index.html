@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Vincent Anjiri" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning how to create as I learn Html."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Web Page</title>
+    <link rel="icon" href="./img/HTML5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>My goals for the Year!</h1>
+
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li>
+            <a href="#html">Learning Html</a>
+          </li>
+          <li>
+            <a href="#vacation">Planning a Vacation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <article id="html">
+        <h2>I'm ready to learn HTML</h2>
+        <p>This is my first web page</p>
+        <section>
+          <img
+            src="./img/HTML5.png"
+            alt="HTML 5 image"
+            width="300"
+            height="300"
+            title="I am learning HTML 5"
+          />
+          <figure>
+            <figcaption>Example of HTML 5 code</figcaption>
+            <p>
+              <code>
+                &lt;p&gt;This is a paragraph of text&lt;/p&gt; <br />
+                &lt;h1&gt;This is a Heading text&lt;/h1&gt;</code
+              >
+            </p>
+          </figure>
+        </section>
+
+        <section>
+          <h3>My Daily Schedule</h3>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li>I learn more about web dev.</li>
+            <li>I plan out my schedule.</li>
+            <li>
+              I use resources from<abbr title="Mozilla Developer Networks"
+                ><a href="https://developer.mozilla.org/en-US/">MDN</a></abbr
+              >.
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark>number of hours</mark> I code per day
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8 am</time> and I write code
+                for <time datetime="PT3H">3 hours</time> every morning.
+              </p>
+            </details>
+          </aside>
+          <br />
+          <table>
+            <caption>
+              My daily Schedule
+            </caption>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">morning</th>
+                <td>
+                  <time datetime="08:00">8am</time>
+                  <time datetime="11:00">11am</time>
+                </td>
+                <td>Write Code</td>
+              </tr>
+              <tr>
+                <th scope="row">break</th>
+                <td>
+                  <time datetime="11:00">11am</time>
+                  <time datetime="12:00">12pm</time>
+                </td>
+
+                <td>Eat Lunch</td>
+              </tr>
+              <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                  <time datetime="12:00">12am</time>
+                  <time datetime="17:00">17pm</time>
+                </td>
+                <td>Study for other Courses</td>
+              </tr>
+              <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All Other Tims</td>
+                <td>Free Time</td>
+              </tr>
+              <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">
+                  And that's what i do every day, 5 days a week. Just eat, code
+                  ... and recharge
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </article>
+
+      <hr />
+      <article id="vacation">
+        <h2>I am also planning a vacation</h2>
+        <p>I've been working very hard and <em>really need a gataway</em>.</p>
+        <p>
+          I live in <abbr title="Nairobi">Nrb</abbr> so i want to visit a beach
+        </p>
+
+        <section>
+          <h3>Places I'd like to visit</h3>
+          <ul>
+            <li>
+              <p>I've heard good things about the Carribean</p>
+              <figure>
+                <img
+                  src="./img/caribbean.jpg"
+                  alt="caribbean beach"
+                  title="I want to visit a beach"
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                />
+                <figcaption>Carribean Beach Getaway</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <p>I've heard good things abput going here:</p>
+              <address>
+                Diani Beach <br />
+                30 kilometres south of Mombasa <br />
+                Kwale County. Kenya
+              </address>
+              <figure>
+                <img
+                  src="./img/vacation.jpg"
+                  alt="Cancun Vacations"
+                  title="It's 5 o'clock somewhere!"
+                  width="400"
+                  height="267"
+                  loading="lazy"
+                />
+                <figcaption>A Carribean image</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!-- TODO: Add more places -->
+
+      <section>
+        <h3>Places I to avaoid</h3>
+        <dl>
+          <dt>Kasarani</dt>
+          <dd>It has high crime rates and limited police response</dd>
+          <dt>Mandera</dt>
+          <dd>It has a high risk of kidnapping and terrorism</dd>
+          <dt>Old Town of Fort Jesus in Mombasa</dt>
+          <dd>
+            This area has a high risk of crime at night, including robberies,
+            attacks, and other street crimes
+          </dd>
+          <dt>Likoni Ferry</dt>
+          <dd>
+            The area around the ferry, which links Mombasa and the southern
+            resorts, has a high crime rate.
+          </dd>
+        </dl>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      &lt;&lt;&lt; &copy; <a href="./about.html">Vincent Anjiri</a>
+      <span id="year">2022</span> &gt;&gt;&gt;
+      <p><a href="#">Back to Top</a></p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
