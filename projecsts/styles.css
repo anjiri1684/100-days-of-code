@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  align-items: center;
+}
+
+.outer-container {
+  background-color: rgba(250, 187, 197, 0.689);
+  height: 600px;
+  width: 870px;
+  margin: 50px auto;
+  padding: 40px;
+}
+
+.inner-container {
+  background-color: aliceblue;
+  color: #333;
+  width: 750px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.header-description {
+  justify-content: flex-start;
+  padding: 18px;
+}
+
+.transactions-history {
+  justify-content: flex-end;
+  color: rgb(6, 49, 222);
+  cursor: pointer;
+  padding: 18px;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 18px;
+  align-items: center;
+
+  padding: 15px;
+}
+
+.info {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.457);
+}
+
+.status {
+  align-items: center;
+  padding: 8px;
+  width: 105px;
+  background-color: rgb(156, 247, 156);
+  border-radius: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+}
+
+.pending {
+  background-color: rgb(207, 207, 164);
+}
+
+.cancelled {
+  background-color: rgb(236, 127, 127);
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.payment-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.amount-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-info svg {
+  text-align: center;
+  fill: #b7b7b7;
+}
+
+.paid-to {
+  display: flex;
+}
