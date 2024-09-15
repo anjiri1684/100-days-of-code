@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 150px auto;
+  width: 600px;
+  height: 50vh;
+  background-color: aqua;
+  color: black;
+  border-radius: 10px;
+}
+
+.container .counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 75%;
+  margin: 45px auto;
+  align-items: center;
+  width: 50%;
+}
+
+.counter {
+  font-size: 64px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+/* .controls {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.btn {
+  padding: 8px;
+  margin: 10px;
+  font-family: inherit;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 85px;
+  cursor: pointer;
+}
