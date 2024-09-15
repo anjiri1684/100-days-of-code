@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(110, 213, 20, 0.849),
+    green
+  );
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 38px;
+  color: white;
+  font-weight: 700;
+}
