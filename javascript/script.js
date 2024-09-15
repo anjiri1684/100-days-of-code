@@ -209,7 +209,7 @@ console.log(myVariable.split("")); */
 // }
 // // console.log(name);
 
-let myNymber = 0;
+// let myNymber = 0;
 // while (myNymber <= 50) {
 //   console.log(myNymber);
 //   myNymber += 3;
@@ -235,8 +235,118 @@ let myNymber = 0;
 
 // greetings("Anjiri");
 
-function sum(a, b) {
-  return a + b;
-}
+// function sum(a, b) {
+//   return a + b;
+// }
 
-console.log(sum(2, 7));
+// console.log(sum(2, 7));
+
+// function getUserNameFromEmail(email) {
+//   return email.slice(0, email.indexOf("@"));
+// }
+
+// console.log(getUserNameFromEmail("vincentanjiri12@gmail.com"));
+
+// function capitalizename(username) {
+//   return username.charAt(0).toUpperCase() + username.slice(1).toLowerCase();
+// }
+
+// console.log(capitalizename("juDIth"));
+
+//Arrays
+
+// const myArray = [1, 2, 3, 4, 5];
+// myArray.forEach((arr) => console.log(arr));
+
+// //add elemts to an aaray
+
+// myArray[0] = "Vincent";
+// myArray[1] = 1001;
+// myArray[2] = false;
+
+// console.log(myArray);
+
+// console.log(myArray.length);
+// console.log(myArray[myArray.length - 1]);
+
+// console.log(myArray[1]);
+// myArray.push("school");
+// console.log(myArray);
+// const lastItem = myArray.pop();
+// console.log(lastItem);
+// myArray.unshift(45);
+// console.log(myArray);
+
+// const removedItem = myArray.shift();
+
+// console.log(removedItem);
+// myArray.splice(1, 1);
+// console.log(myArray);
+
+// const myArray = ["A", "B", "C"];
+// const myArray2 = ["D", "E", "F"];
+
+// const newArray = myArray.concat(myArray2);
+// console.log(newArray);
+
+// const newArray = [...myArray, ...myArray2];
+// console.log(newArray);
+
+// const newArray = myArray.slice(2);
+// myArray.reverse();
+// console.log(myArray);
+// const newString = myArray.join();
+// console.log(newString);
+
+// const splitString = newString.split(",");
+// console.log(splitString);
+
+// console.log(newArray);
+
+//objects
+
+// const myObj = {
+//   name: "Vincent",
+// };
+
+// const anotherObj = {
+//   alive: true,
+//   answer: 42,
+//   hobbies: ["Eat", "Sleep", "Code"],
+//   beverage: {
+//     morning: "Coffee",
+//     afternoon: "Iced tea",
+//     evening: "Tea",
+//   },
+//   action: function () {
+//     console.log(`${myObj.name} loves coding`);
+//     return `Time for ${this.beverage.morning}`;
+//   },
+// };
+
+// console.log(myObj.name);
+// console.log(anotherObj.hobbies[1]);
+// console.log(anotherObj.beverage.morning);
+// console.log(anotherObj.action());
+
+// const vehicle = {
+//   brand: "Toyota",
+//   model: "Camry",
+//   year: 2015,
+//   color: "Blue",
+//   isElectric: false,
+//   engine: function () {
+//     console.log("Vrrrooooom");
+//   },
+// };
+
+// const truck = Object.create(vehicle);
+// truck.brand = "Ford";
+// truck.model = "F-150";
+// truck.year = 2020;
+// truck.color = "Red";
+// truck.isElectric = true;
+
+// console.log(truck.engine());
+
+class Pizza {}
