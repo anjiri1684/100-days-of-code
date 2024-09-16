@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(27, 28, 28);
+  color: aliceblue;
+}
+
+h1 {
+  font-weight: 800;
+}
