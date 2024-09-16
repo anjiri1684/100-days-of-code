@@ -349,4 +349,6 @@ console.log(myVariable.split("")); */
 
 // console.log(truck.engine());
 
-class Pizza {}
+// class Pizza {}
+
+//DOM
