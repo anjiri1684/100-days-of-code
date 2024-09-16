@@ -1,22 +1,13 @@
-import classes from "./app.module.css";
+import Header from "./components/Header/Header";
+import Content from "./components/content/Content";
+import Footer from "./components/footer/Footer";
 
 function App() {
-  const names = [
-    "Ava",
-    "Liam",
-    "Sofia",
-    "Noah",
-    "Isabella",
-    "Mason",
-    "Mia",
-    "Elijah",
-    "Emma",
-    "Oliver",
-  ];
-  const randNum = Math.floor(Math.random() * 4);
   return (
-    <div className={classes.container}>
-      <h1>My name is {names[randNum]}</h1>
+    <div>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }

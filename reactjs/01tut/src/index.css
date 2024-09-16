@@ -7,4 +7,11 @@
 html {
   font-size: 62.5%;
   font-family: "Courier New", Courier, monospace;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 50px auto;
+  background-color: rgb(11, 11, 11);
+  color: aliceblue;
 }

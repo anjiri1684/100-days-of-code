@@ -1,11 +1,12 @@
-.container {
+.header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  margin: 50px auto;
   flex-direction: column;
   background-color: rgb(27, 28, 28);
   color: aliceblue;
+  width: 50%;
 }
 
 h1 {
