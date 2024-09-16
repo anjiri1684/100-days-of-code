@@ -9,3 +9,7 @@
 .content p {
   font-size: 28px;
 }
+
+.item {
+  list-style: none;
+}
