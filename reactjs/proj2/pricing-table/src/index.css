@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(167, 193, 167);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.header h1 {
+  margin-bottom: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.header-description {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 450px;
+  word-wrap: break-word;
+  margin-bottom: 40px;
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.duration p {
+  margin-left: 15px;
+}
+
+.save {
+  padding: 10px;
+  background-color: rgba(106, 0, 255, 0.171);
+  border-radius: 15px;
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+input {
+  width: 20px;
+}
+
+.yearly {
+  font-size: 18px;
+}
+
+.check {
+  fill: rgba(143, 239, 95, 0.89);
+  width: 20px;
+  margin-right: 5px;
+}
+
+.cross {
+  fill: rgba(143, 142, 142, 0.89);
+  width: 20px;
+  margin-right: 5px;
+}
+
+.container {
+  width: 250px;
+  box-shadow: 2px 2px 3px rgb(197, 197, 197);
+  padding: 25px;
+  background-color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.fade-text {
+  opacity: 0.6;
+}
+
+.actions {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: blueviolet;
+  margin-bottom: 15px;
+  background-color: rgba(128, 96, 159, 0.342);
+}
+
+.actions a {
+  text-decoration: none;
+}
+
+.arrow svg {
+  color: inherit;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: blueviolet;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.blue a {
+  color: white;
+}
+
+.amount {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.dolar {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.billed {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+a {
+  color: blueviolet;
+}
