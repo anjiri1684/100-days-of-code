@@ -56,3 +56,7 @@
 /employees
 20240920	15:12:45	ee40c0f1-d820-4e77-aa0b-c462075be3f8	GET	undefined
 /employees/1
+20240920	15:56:25	1922a41f-cf61-4ebd-93aa-210af13910ee	GET	undefined
+/employees
+20240920	15:56:54	7f3d092d-c03d-46e7-bf3d-156ffef38a16	POST	undefined
+/employees
