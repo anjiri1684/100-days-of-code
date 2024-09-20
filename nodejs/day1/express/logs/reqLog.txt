@@ -60,3 +60,11 @@
 /employees
 20240920	15:56:54	7f3d092d-c03d-46e7-bf3d-156ffef38a16	POST	undefined
 /employees
+20240920	17:09:37	c4690cd9-2d25-492b-913d-53485a7d2263	POST	undefined
+/register
+20240920	17:10:18	010c6330-ff67-4d70-8895-4863952bc5b6	POST	undefined
+/register
+20240920	17:21:53	f0bf9005-7797-4974-a394-f41770258f3c	POST	undefined
+/auth
+20240920	17:22:05	019e7bc8-f33e-4b36-ac28-846d5a59a276	POST	undefined
+/auth
