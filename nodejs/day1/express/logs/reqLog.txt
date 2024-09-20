@@ -46,3 +46,11 @@
 /old-page.html
 20240920	14:45:16	e84512b9-61e3-49b9-b351-cb86afcf557f	GET	undefined
 /css/styles.css
+20240920	15:07:29	cc50b513-7049-4554-96ed-4816fdbbd514	GET	undefined
+/employees
+20240920	15:09:09	595e808f-e25c-47f8-981a-ecfc7de3d09e	POST	undefined
+/employees
+20240920	15:10:27	6bfeca8c-5156-4589-99dd-89db1c6a5287	PUT	undefined
+/employees
+20240920	15:11:07	4e4a9d9c-9d5f-4632-b95c-d3d792933d8a	DELETE	undefined
+/employees
