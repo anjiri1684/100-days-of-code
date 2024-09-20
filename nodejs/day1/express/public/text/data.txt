@@ -1,0 +1,3 @@
+[{firstName: Vincent, lastName: Anjiri},
+
+{firstName: Judith, lastName: Muhonja}]
