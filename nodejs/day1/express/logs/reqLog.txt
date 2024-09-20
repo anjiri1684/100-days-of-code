@@ -54,3 +54,5 @@
 /employees
 20240920	15:11:07	4e4a9d9c-9d5f-4632-b95c-d3d792933d8a	DELETE	undefined
 /employees
+20240920	15:12:45	ee40c0f1-d820-4e77-aa0b-c462075be3f8	GET	undefined
+/employees/1
