@@ -72,3 +72,7 @@
 /old-page.html
 20240920	17:29:12	dccf93c8-b58f-41cc-be9f-535eed668c17	GET	undefined
 /css/styles.css
+20240921	09:46:48	d7f66909-e129-4141-8259-cfc3e6fcf731	POST	undefined
+/auth
+20240921	09:47:46	6c28cc23-daef-4f63-b0d8-731fabfac414	GET	undefined
+/employees
