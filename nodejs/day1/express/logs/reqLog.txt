@@ -68,3 +68,7 @@
 /auth
 20240920	17:22:05	019e7bc8-f33e-4b36-ac28-846d5a59a276	POST	undefined
 /auth
+20240920	17:29:12	ece9b023-26c7-42f4-9ba1-56ccf9039f79	GET	undefined
+/old-page.html
+20240920	17:29:12	dccf93c8-b58f-41cc-be9f-535eed668c17	GET	undefined
+/css/styles.css
