@@ -151,3 +151,22 @@ main h1 {
 .language-link:hover {
   text-decoration: underline;
 }
+
+footer {
+  background-color: rgb(244, 244, 244);
+}
+
+footer > div {
+  padding: 1.3rem;
+}
+
+.footer-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-links a {
+  padding: 10px;
+}
