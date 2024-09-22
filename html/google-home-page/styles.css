@@ -5,8 +5,14 @@
 }
 
 html {
-  font-size: 62.5%;
   font-family: "inter", sans-serif;
+}
+
+body {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .google-header {
@@ -17,8 +23,28 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px;
-  gap: 14px;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icon-link {
+  cursor: pointer;
+  font-size: 1.1rem;
+  width: 35px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.icon-link:hover {
+  background-color: rgb(235, 235, 235);
 }
 
 a {
@@ -29,6 +55,57 @@ a {
 .nav-container {
   display: flex;
   align-items: center;
-  gap: 14px;
-  font-size: 18px;
+  gap: 1rem;
+}
+
+.img-button {
+  border: none;
+  background: transparent;
+}
+
+.img-button img {
+  width: 40px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main h1 {
+  font-size: 120px;
+}
+
+.input-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid rgb(235, 235, 235);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.input-bar:hover,
+.input-bar:focus-within {
+  box-shadow: 0 0 4px 1px rgb(237, 237, 237);
+}
+
+.input-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.input-bar div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
