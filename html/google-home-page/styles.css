@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "inter", sans-serif;
+}
+
+.google-header {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px;
+  gap: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 18px;
+}
