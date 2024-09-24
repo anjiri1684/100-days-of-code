@@ -30,9 +30,7 @@ function App() {
   return (
     <div>
       {fruits.length > 0 && <List items={fruits} category="Fruits" />}
-      {vegetables.length > 0 && (
-        <List items={vegetables} category="Vegetables" />
-      )}
+      {vegetables.length > 0 && <List items={vegetables} />}
     </div>
   );
 }

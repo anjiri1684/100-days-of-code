@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import PropTypes from "prop-types";
 function List(props) {
   const itemList = props.items;
   const category = props.category;
@@ -15,5 +15,21 @@ function List(props) {
     </>
   );
 }
+
+List.propTypes = {
+  category: PropTypes.string,
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
+      calories: PropTypes.number,
+    })
+  ),
+};
+
+List.defaultProps = {
+  category: "Category",
+  items: [],
+};
 
 export default List;
