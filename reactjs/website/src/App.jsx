@@ -1,8 +1,9 @@
-import ProfilePicture from "./ProfilePicture";
+import Counter from "./Counter";
+
 function App() {
   return (
     <div>
-      <ProfilePicture />
+      <Counter />
     </div>
   );
 }
